@@ -28,6 +28,5 @@ def generar_sonido(filename, frecuencia, duracion, tipo="seno"):
 os.makedirs("sonidos", exist_ok=True)
 
 print("Generando sonidos...")
-generar_sonido("sonidos/descarga.wav", 440, 0.5, "beep")
 generar_sonido("sonidos/terminado.wav", 880, 0.3, "beep")
 print("Listo!")
